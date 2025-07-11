@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3f688652ffbc6dce4fa91c249748ef15 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3f688652ffbc6dce4fa91c249748ef15" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3f688652ffbc6dce4fa91c249748ef15 = L.map(
+                "map_3f688652ffbc6dce4fa91c249748ef15",
+                {
+                    center: [41.38, 2.17],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e5ed49e2604fcd977d7f1b40822ab1eb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e5ed49e2604fcd977d7f1b40822ab1eb.addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var marker_027eb835bd155bf5d28144d3f5392073 = L.marker(
+                [41.35312798543056, 2.1196325792637385],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_a4788c08fdd896d6dca7a276d031c462 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_507da088390aa11073ee5e5648e1267f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5f023f6366a6cf875d79ee79d2b0180 = $(`<div id="html_e5f023f6366a6cf875d79ee79d2b0180" style="width: 100.0%; height: 100.0%;">Gornal (3225)</div>`)[0];
+                popup_507da088390aa11073ee5e5648e1267f.setContent(html_e5f023f6366a6cf875d79ee79d2b0180);
+            
+        
+
+        marker_027eb835bd155bf5d28144d3f5392073.bindPopup(popup_507da088390aa11073ee5e5648e1267f)
+        ;
+
+        
+    
+    
+                marker_027eb835bd155bf5d28144d3f5392073.setIcon(icon_a4788c08fdd896d6dca7a276d031c462);
+            
+    
+            var marker_42e88a2e8c3b0515ce1d077dd2c66f98 = L.marker(
+                [41.35276303765884, 2.120214324039504],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_5739b7ce3c5eb921324c6feed3d29c78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc6f8cd4af598a87a97fa8103f91d73b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67a3f26266fd33902ee148674e671b6f = $(`<div id="html_67a3f26266fd33902ee148674e671b6f" style="width: 100.0%; height: 100.0%;">Av Granvia - Miguel Hernández (91)</div>`)[0];
+                popup_cc6f8cd4af598a87a97fa8103f91d73b.setContent(html_67a3f26266fd33902ee148674e671b6f);
+            
+        
+
+        marker_42e88a2e8c3b0515ce1d077dd2c66f98.bindPopup(popup_cc6f8cd4af598a87a97fa8103f91d73b)
+        ;
+
+        
+    
+    
+                marker_42e88a2e8c3b0515ce1d077dd2c66f98.setIcon(icon_5739b7ce3c5eb921324c6feed3d29c78);
+            
+    
+            var marker_38876509412c1e37d44c6d81adb6083b = L.marker(
+                [41.35549750775523, 2.1238528481075023],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_04f69b310bfbe2b8209adb7a92e9121d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24ca89c9f43759e05fdc2396828a12f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780c04a3ccce0a6f6ff39f5488a6a474 = $(`<div id="html_780c04a3ccce0a6f6ff39f5488a6a474" style="width: 100.0%; height: 100.0%;">Amadeu Torner (2968)</div>`)[0];
+                popup_24ca89c9f43759e05fdc2396828a12f9.setContent(html_780c04a3ccce0a6f6ff39f5488a6a474);
+            
+        
+
+        marker_38876509412c1e37d44c6d81adb6083b.bindPopup(popup_24ca89c9f43759e05fdc2396828a12f9)
+        ;
+
+        
+    
+    
+                marker_38876509412c1e37d44c6d81adb6083b.setIcon(icon_04f69b310bfbe2b8209adb7a92e9121d);
+            
+    
+            var marker_6f3fa62c7d60175fb59e0294808266b7 = L.marker(
+                [41.35741915642818, 2.1264042110038646],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_6ec93855aa4eb46f1e49274c46032f0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2b789fed55d740a0d775bdbb1b53ff2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4b6f4e3e07e68bc22b26111f37ceb48 = $(`<div id="html_e4b6f4e3e07e68bc22b26111f37ceb48" style="width: 100.0%; height: 100.0%;">Pl Europa (472)</div>`)[0];
+                popup_d2b789fed55d740a0d775bdbb1b53ff2.setContent(html_e4b6f4e3e07e68bc22b26111f37ceb48);
+            
+        
+
+        marker_6f3fa62c7d60175fb59e0294808266b7.bindPopup(popup_d2b789fed55d740a0d775bdbb1b53ff2)
+        ;
+
+        
+    
+    
+                marker_6f3fa62c7d60175fb59e0294808266b7.setIcon(icon_6ec93855aa4eb46f1e49274c46032f0e);
+            
+    
+            var marker_59ad5ce9f2c4b08b3367414c26732883 = L.marker(
+                [41.35930307455842, 2.1288553833538475],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_42e680ef8a9cf4baf071bc474cd6ebaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40a42d76e3a2d3c36b950e2a73f23ce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aad2e22a1966d1b46f314c350e632f5e = $(`<div id="html_aad2e22a1966d1b46f314c350e632f5e" style="width: 100.0%; height: 100.0%;">Av Granvia - Física (2970)</div>`)[0];
+                popup_40a42d76e3a2d3c36b950e2a73f23ce7.setContent(html_aad2e22a1966d1b46f314c350e632f5e);
+            
+        
+
+        marker_59ad5ce9f2c4b08b3367414c26732883.bindPopup(popup_40a42d76e3a2d3c36b950e2a73f23ce7)
+        ;
+
+        
+    
+    
+                marker_59ad5ce9f2c4b08b3367414c26732883.setIcon(icon_42e680ef8a9cf4baf071bc474cd6ebaf);
+            
+    
+            var marker_4a9fbd941ec11b547bde3d4d715da185 = L.marker(
+                [41.36178167884819, 2.1319606779066045],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_9021f61e1c21089f5457688076f77c03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe0e178f0704e7e0079ab6be304bac88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc634c907d17b4ea32ae617134c8d56f = $(`<div id="html_fc634c907d17b4ea32ae617134c8d56f" style="width: 100.0%; height: 100.0%;">Av Granvia - Bloc I. Cerdà (185)</div>`)[0];
+                popup_fe0e178f0704e7e0079ab6be304bac88.setContent(html_fc634c907d17b4ea32ae617134c8d56f);
+            
+        
+
+        marker_4a9fbd941ec11b547bde3d4d715da185.bindPopup(popup_fe0e178f0704e7e0079ab6be304bac88)
+        ;
+
+        
+    
+    
+                marker_4a9fbd941ec11b547bde3d4d715da185.setIcon(icon_9021f61e1c21089f5457688076f77c03);
+            
+    
+            var marker_7e239556c649fe769955020e8311c92e = L.marker(
+                [41.363662106599996, 2.1344405434775586],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_9c4a53aab6487f7309c910bf34454beb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d558a5cd0cabf6e67a5e46486c17f0f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c3c887e64a0fe2f2f1b24ff5f7d0334 = $(`<div id="html_5c3c887e64a0fe2f2f1b24ff5f7d0334" style="width: 100.0%; height: 100.0%;">Gran Via - Radi (2363)</div>`)[0];
+                popup_d558a5cd0cabf6e67a5e46486c17f0f8.setContent(html_5c3c887e64a0fe2f2f1b24ff5f7d0334);
+            
+        
+
+        marker_7e239556c649fe769955020e8311c92e.bindPopup(popup_d558a5cd0cabf6e67a5e46486c17f0f8)
+        ;
+
+        
+    
+    
+                marker_7e239556c649fe769955020e8311c92e.setIcon(icon_9c4a53aab6487f7309c910bf34454beb);
+            
+    
+            var marker_60dcd5d8a26e02cbda5bb51d4dc59868 = L.marker(
+                [41.36578376504125, 2.1371555883193953],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_b48a1a99acb23274aeb45d55cc1089f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_998c5c58176726d7e19be63f4d69c09f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc8cff65d36610c58eb45ba0f2e94d00 = $(`<div id="html_fc8cff65d36610c58eb45ba0f2e94d00" style="width: 100.0%; height: 100.0%;">Gran Via - Química (1173)</div>`)[0];
+                popup_998c5c58176726d7e19be63f4d69c09f.setContent(html_fc8cff65d36610c58eb45ba0f2e94d00);
+            
+        
+
+        marker_60dcd5d8a26e02cbda5bb51d4dc59868.bindPopup(popup_998c5c58176726d7e19be63f4d69c09f)
+        ;
+
+        
+    
+    
+                marker_60dcd5d8a26e02cbda5bb51d4dc59868.setIcon(icon_b48a1a99acb23274aeb45d55cc1089f0);
+            
+    
+            var marker_9ab3e80ec29d7dcfb24b2ad45d681a9f = L.marker(
+                [41.36750697846757, 2.1392987290975913],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_eaf426cec69d44234e70f9dc2c7e0dbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e30f81f160b3e2f2931749efa5b02ef2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_377388727b61d62024f3567b5adadbd9 = $(`<div id="html_377388727b61d62024f3567b5adadbd9" style="width: 100.0%; height: 100.0%;">La Campana (868)</div>`)[0];
+                popup_e30f81f160b3e2f2931749efa5b02ef2.setContent(html_377388727b61d62024f3567b5adadbd9);
+            
+        
+
+        marker_9ab3e80ec29d7dcfb24b2ad45d681a9f.bindPopup(popup_e30f81f160b3e2f2931749efa5b02ef2)
+        ;
+
+        
+    
+    
+                marker_9ab3e80ec29d7dcfb24b2ad45d681a9f.setIcon(icon_eaf426cec69d44234e70f9dc2c7e0dbf);
+            
+    
+            var marker_22f43202e9277a35a38d4bf1d0a1ae6c = L.marker(
+                [41.3695040906407, 2.1419535888540087],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_d7f800d02a99caf457a7d759e001d03e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d76e59232cc871e7889da94a16fbc7b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b792eb1582226eddc395e35c4287337 = $(`<div id="html_1b792eb1582226eddc395e35c4287337" style="width: 100.0%; height: 100.0%;">Gran Via - Mandoni (941)</div>`)[0];
+                popup_d76e59232cc871e7889da94a16fbc7b9.setContent(html_1b792eb1582226eddc395e35c4287337);
+            
+        
+
+        marker_22f43202e9277a35a38d4bf1d0a1ae6c.bindPopup(popup_d76e59232cc871e7889da94a16fbc7b9)
+        ;
+
+        
+    
+    
+                marker_22f43202e9277a35a38d4bf1d0a1ae6c.setIcon(icon_d7f800d02a99caf457a7d759e001d03e);
+            
+    
+            var marker_9ffccfec691b6a7919534d15669c2cd2 = L.marker(
+                [41.37170532001905, 2.144880543498888],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_1793b8e69b5955646e42577072ef6ea8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ab219eae4aec66de7997721c16560de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_318502aa9ee6a87871be92f6ba22c7be = $(`<div id="html_318502aa9ee6a87871be92f6ba22c7be" style="width: 100.0%; height: 100.0%;">Gran Via - Santa Dorotea (1310)</div>`)[0];
+                popup_2ab219eae4aec66de7997721c16560de.setContent(html_318502aa9ee6a87871be92f6ba22c7be);
+            
+        
+
+        marker_9ffccfec691b6a7919534d15669c2cd2.bindPopup(popup_2ab219eae4aec66de7997721c16560de)
+        ;
+
+        
+    
+    
+                marker_9ffccfec691b6a7919534d15669c2cd2.setIcon(icon_1793b8e69b5955646e42577072ef6ea8);
+            
+    
+            var marker_109c48414a2953b155243a2a0f8eff7d = L.marker(
+                [41.374291062546924, 2.1485756169735026],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_e129d763bb2d6553675741460499730d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c927c4ebe1df64db0aef8c0fa6c39d09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d691eaed871740ed39a5884be2a39450 = $(`<div id="html_d691eaed871740ed39a5884be2a39450" style="width: 100.0%; height: 100.0%;">Pl Espanya - FGC (389)</div>`)[0];
+                popup_c927c4ebe1df64db0aef8c0fa6c39d09.setContent(html_d691eaed871740ed39a5884be2a39450);
+            
+        
+
+        marker_109c48414a2953b155243a2a0f8eff7d.bindPopup(popup_c927c4ebe1df64db0aef8c0fa6c39d09)
+        ;
+
+        
+    
+    
+                marker_109c48414a2953b155243a2a0f8eff7d.setIcon(icon_e129d763bb2d6553675741460499730d);
+            
+    
+            var marker_e0dea6d7d9bb2a049bc59c8efb81580a = L.marker(
+                [41.37549521814797, 2.150187575488245],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_7840ec445a38d7d6766820b365469ab0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8c78c7a83f07a1f914bc286c4c0f902 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a9cc07578e616054d26e663618d6158 = $(`<div id="html_8a9cc07578e616054d26e663618d6158" style="width: 100.0%; height: 100.0%;">Gran Via - Pl Espanya (3247)</div>`)[0];
+                popup_d8c78c7a83f07a1f914bc286c4c0f902.setContent(html_8a9cc07578e616054d26e663618d6158);
+            
+        
+
+        marker_e0dea6d7d9bb2a049bc59c8efb81580a.bindPopup(popup_d8c78c7a83f07a1f914bc286c4c0f902)
+        ;
+
+        
+    
+    
+                marker_e0dea6d7d9bb2a049bc59c8efb81580a.setIcon(icon_7840ec445a38d7d6766820b365469ab0);
+            
+    
+            var marker_a03a0df040f6092105e34de16ebeaae7 = L.marker(
+                [41.37838511831057, 2.1537196584184275],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_a35ea2b831122d9c69d973e23bbb0cca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_642614f54e743c20a0e132fa2b4ec51e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cda110525e9e183ac9b34e463dd0e630 = $(`<div id="html_cda110525e9e183ac9b34e463dd0e630" style="width: 100.0%; height: 100.0%;">Gran Via - Entença (1254)</div>`)[0];
+                popup_642614f54e743c20a0e132fa2b4ec51e.setContent(html_cda110525e9e183ac9b34e463dd0e630);
+            
+        
+
+        marker_a03a0df040f6092105e34de16ebeaae7.bindPopup(popup_642614f54e743c20a0e132fa2b4ec51e)
+        ;
+
+        
+    
+    
+                marker_a03a0df040f6092105e34de16ebeaae7.setIcon(icon_a35ea2b831122d9c69d973e23bbb0cca);
+            
+    
+            var marker_93fc02fe3386175236765fe30e532d62 = L.marker(
+                [41.38003590536019, 2.1559133324229602],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_81ceb2ac6f83b50b26e200b193d498e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18982646e1e3d39e1b05a84a2a9a5173 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7d6ac6eb1280e60cee1818f1ae71979 = $(`<div id="html_c7d6ac6eb1280e60cee1818f1ae71979" style="width: 100.0%; height: 100.0%;">Gran Via - Viladomat (1556)</div>`)[0];
+                popup_18982646e1e3d39e1b05a84a2a9a5173.setContent(html_c7d6ac6eb1280e60cee1818f1ae71979);
+            
+        
+
+        marker_93fc02fe3386175236765fe30e532d62.bindPopup(popup_18982646e1e3d39e1b05a84a2a9a5173)
+        ;
+
+        
+    
+    
+                marker_93fc02fe3386175236765fe30e532d62.setIcon(icon_81ceb2ac6f83b50b26e200b193d498e6);
+            
+    
+            var marker_23db0ae26c829fee3557e38eccd5b91d = L.marker(
+                [41.38242323743998, 2.1590865649082027],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_c66bb64cc860a39b7fd13cc493095287 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6c098d403a924fc8d3d0fea4ec7610e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14f65f43661edb89e0bcdca1f67d21b8 = $(`<div id="html_14f65f43661edb89e0bcdca1f67d21b8" style="width: 100.0%; height: 100.0%;">Gran Via - Urgell (1469)</div>`)[0];
+                popup_c6c098d403a924fc8d3d0fea4ec7610e.setContent(html_14f65f43661edb89e0bcdca1f67d21b8);
+            
+        
+
+        marker_23db0ae26c829fee3557e38eccd5b91d.bindPopup(popup_c6c098d403a924fc8d3d0fea4ec7610e)
+        ;
+
+        
+    
+    
+                marker_23db0ae26c829fee3557e38eccd5b91d.setIcon(icon_c66bb64cc860a39b7fd13cc493095287);
+            
+    
+            var marker_576cdd7e999827555a47f8c292d2a3ae = L.marker(
+                [41.38437755086675, 2.161685720882351],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_7e6c5e980adc42d6ee5010ebd686cc87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2822bd2cd2df36309890cccb9f0ae20e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e92cc9f4b3ca62dfdee8beeba2219c8 = $(`<div id="html_6e92cc9f4b3ca62dfdee8beeba2219c8" style="width: 100.0%; height: 100.0%;">Gran Via - Muntaner (927)</div>`)[0];
+                popup_2822bd2cd2df36309890cccb9f0ae20e.setContent(html_6e92cc9f4b3ca62dfdee8beeba2219c8);
+            
+        
+
+        marker_576cdd7e999827555a47f8c292d2a3ae.bindPopup(popup_2822bd2cd2df36309890cccb9f0ae20e)
+        ;
+
+        
+    
+    
+                marker_576cdd7e999827555a47f8c292d2a3ae.setIcon(icon_7e6c5e980adc42d6ee5010ebd686cc87);
+            
+    
+            var marker_c01dff45a86d42807204ab88180c9012 = L.marker(
+                [41.38607051328826, 2.16397065914071],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_8b366e5a586a0fa286b2c06f3ec71205 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48d331534abd7edf0d97b7f39171eb88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fa53cbd09b9923b8ce22baa2a85f89c = $(`<div id="html_6fa53cbd09b9923b8ce22baa2a85f89c" style="width: 100.0%; height: 100.0%;">Pl Universitat (1075)</div>`)[0];
+                popup_48d331534abd7edf0d97b7f39171eb88.setContent(html_6fa53cbd09b9923b8ce22baa2a85f89c);
+            
+        
+
+        marker_c01dff45a86d42807204ab88180c9012.bindPopup(popup_48d331534abd7edf0d97b7f39171eb88)
+        ;
+
+        
+    
+    
+                marker_c01dff45a86d42807204ab88180c9012.setIcon(icon_8b366e5a586a0fa286b2c06f3ec71205);
+            
+    
+            var marker_f1a7bf43561df6e6834bc4ae1d6ad4a5 = L.marker(
+                [41.38793119584197, 2.1664311861201715],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_9b58a34dec6534de05c5b301fc7bdb86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_874aaa9b349a70be1082ee1716b3138a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_758382acf9240514baf108ca87056ef2 = $(`<div id="html_758382acf9240514baf108ca87056ef2" style="width: 100.0%; height: 100.0%;">Gran Via - Balmes (1209)</div>`)[0];
+                popup_874aaa9b349a70be1082ee1716b3138a.setContent(html_758382acf9240514baf108ca87056ef2);
+            
+        
+
+        marker_f1a7bf43561df6e6834bc4ae1d6ad4a5.bindPopup(popup_874aaa9b349a70be1082ee1716b3138a)
+        ;
+
+        
+    
+    
+                marker_f1a7bf43561df6e6834bc4ae1d6ad4a5.setIcon(icon_9b58a34dec6534de05c5b301fc7bdb86);
+            
+    
+            var marker_13f8c1584a0721beb7f632e8c7695e56 = L.marker(
+                [41.390143276809155, 2.169377301585727],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_2cefe0ab2e21a9eaca854cbc68beb75a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8892f4d676b2dd3dacf50c6cbd4797f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9dce824ab64fe6b19ce3a05aa9418dc = $(`<div id="html_a9dce824ab64fe6b19ce3a05aa9418dc" style="width: 100.0%; height: 100.0%;">Gran Via - Pau Claris (1070)</div>`)[0];
+                popup_f8892f4d676b2dd3dacf50c6cbd4797f.setContent(html_a9dce824ab64fe6b19ce3a05aa9418dc);
+            
+        
+
+        marker_13f8c1584a0721beb7f632e8c7695e56.bindPopup(popup_f8892f4d676b2dd3dacf50c6cbd4797f)
+        ;
+
+        
+    
+    
+                marker_13f8c1584a0721beb7f632e8c7695e56.setIcon(icon_2cefe0ab2e21a9eaca854cbc68beb75a);
+            
+    
+            var marker_7a392d91712310af1ce9241010039add = L.marker(
+                [41.39187023481084, 2.171675781854051],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_d1f8f7d2541d4dfb715f55a62858e092 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c76f15b61e2a6d4ce9541d8d696bd9f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e796b727651c72686342e60bbe1823a = $(`<div id="html_6e796b727651c72686342e60bbe1823a" style="width: 100.0%; height: 100.0%;">Gran Via - Llúria (149)</div>`)[0];
+                popup_c76f15b61e2a6d4ce9541d8d696bd9f6.setContent(html_6e796b727651c72686342e60bbe1823a);
+            
+        
+
+        marker_7a392d91712310af1ce9241010039add.bindPopup(popup_c76f15b61e2a6d4ce9541d8d696bd9f6)
+        ;
+
+        
+    
+    
+                marker_7a392d91712310af1ce9241010039add.setIcon(icon_d1f8f7d2541d4dfb715f55a62858e092);
+            
+    
+            var marker_a813968fab9cd2cc70bf67b662841359 = L.marker(
+                [41.393789664270386, 2.174219161417308],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_4087b77aa31a095355bec7a6346f1d7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a08baa57e1d7ae3d8197505975e6c75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52a5755dc10420f9a54fea58f52e4b9f = $(`<div id="html_52a5755dc10420f9a54fea58f52e4b9f" style="width: 100.0%; height: 100.0%;">Metro Tetuan (125)</div>`)[0];
+                popup_9a08baa57e1d7ae3d8197505975e6c75.setContent(html_52a5755dc10420f9a54fea58f52e4b9f);
+            
+        
+
+        marker_a813968fab9cd2cc70bf67b662841359.bindPopup(popup_9a08baa57e1d7ae3d8197505975e6c75)
+        ;
+
+        
+    
+    
+                marker_a813968fab9cd2cc70bf67b662841359.setIcon(icon_4087b77aa31a095355bec7a6346f1d7e);
+            
+    
+            var marker_fc5bbe3464fab7215f8daa1c806e160b = L.marker(
+                [41.39610082183949, 2.1773047743843077],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_7ead514522c96bb369c7a5354a612358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_feb8a8f2c3fa668cf892aeed864a6e4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b51f5b8d7eca86d5d84224848cc3cf18 = $(`<div id="html_b51f5b8d7eca86d5d84224848cc3cf18" style="width: 100.0%; height: 100.0%;">Gran Via - Roger de Flor (1319)</div>`)[0];
+                popup_feb8a8f2c3fa668cf892aeed864a6e4d.setContent(html_b51f5b8d7eca86d5d84224848cc3cf18);
+            
+        
+
+        marker_fc5bbe3464fab7215f8daa1c806e160b.bindPopup(popup_feb8a8f2c3fa668cf892aeed864a6e4d)
+        ;
+
+        
+    
+    
+                marker_fc5bbe3464fab7215f8daa1c806e160b.setIcon(icon_7ead514522c96bb369c7a5354a612358);
+            
+    
+            var marker_2bb5155aa26cea0fd542ecb7b87ffd8f = L.marker(
+                [41.3986105882153, 2.1806498152049323],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_589de779e4bb67a129b8e848059e07de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_529ed302ff633d926af4c0cecf85a59e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0238748c10c884765e6bbb4ea448f3b9 = $(`<div id="html_0238748c10c884765e6bbb4ea448f3b9" style="width: 100.0%; height: 100.0%;">Gran Via - Marina (914)</div>`)[0];
+                popup_529ed302ff633d926af4c0cecf85a59e.setContent(html_0238748c10c884765e6bbb4ea448f3b9);
+            
+        
+
+        marker_2bb5155aa26cea0fd542ecb7b87ffd8f.bindPopup(popup_529ed302ff633d926af4c0cecf85a59e)
+        ;
+
+        
+    
+    
+                marker_2bb5155aa26cea0fd542ecb7b87ffd8f.setIcon(icon_589de779e4bb67a129b8e848059e07de);
+            
+    
+            var marker_a4b5d7be72f1b33d2b93010636dc1702 = L.marker(
+                [41.40038908924113, 2.1832670720102394],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_385bcf3da9caa0ea2582f704e4e2ee6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42d2531a517db0ed227711e506ff607d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ad646f24faa8805157607c7e85845ba = $(`<div id="html_5ad646f24faa8805157607c7e85845ba" style="width: 100.0%; height: 100.0%;">Gran Via - Padilla (499)</div>`)[0];
+                popup_42d2531a517db0ed227711e506ff607d.setContent(html_5ad646f24faa8805157607c7e85845ba);
+            
+        
+
+        marker_a4b5d7be72f1b33d2b93010636dc1702.bindPopup(popup_42d2531a517db0ed227711e506ff607d)
+        ;
+
+        
+    
+    
+                marker_a4b5d7be72f1b33d2b93010636dc1702.setIcon(icon_385bcf3da9caa0ea2582f704e4e2ee6b);
+            
+    
+            var marker_adba8a1ab5289b8ef92cb4e3b8aa069c = L.marker(
+                [41.40226116570468, 2.186027154929622],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_dca2fb0f06e85b42dacdcd4f04345015 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d5592fe6c64660a293e0f3ae368c11b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8782daa266981f01702e9ca88587f08 = $(`<div id="html_f8782daa266981f01702e9ca88587f08" style="width: 100.0%; height: 100.0%;">Pl Glòries (3398)</div>`)[0];
+                popup_0d5592fe6c64660a293e0f3ae368c11b.setContent(html_f8782daa266981f01702e9ca88587f08);
+            
+        
+
+        marker_adba8a1ab5289b8ef92cb4e3b8aa069c.bindPopup(popup_0d5592fe6c64660a293e0f3ae368c11b)
+        ;
+
+        
+    
+    
+                marker_adba8a1ab5289b8ef92cb4e3b8aa069c.setIcon(icon_dca2fb0f06e85b42dacdcd4f04345015);
+            
+    
+            var marker_bd53d8dd17fc65942608fcda83d01551 = L.marker(
+                [41.40615441606693, 2.1908951814214173],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_e9696d8de21557fce18d29d2c7269f84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b29a4de05714c76f75038a29ea19fed4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a34ef3f724690d3c3b29e02a06dc9d7 = $(`<div id="html_3a34ef3f724690d3c3b29e02a06dc9d7" style="width: 100.0%; height: 100.0%;">Gran Via - Llacuna (795)</div>`)[0];
+                popup_b29a4de05714c76f75038a29ea19fed4.setContent(html_3a34ef3f724690d3c3b29e02a06dc9d7);
+            
+        
+
+        marker_bd53d8dd17fc65942608fcda83d01551.bindPopup(popup_b29a4de05714c76f75038a29ea19fed4)
+        ;
+
+        
+    
+    
+                marker_bd53d8dd17fc65942608fcda83d01551.setIcon(icon_e9696d8de21557fce18d29d2c7269f84);
+            
+    
+            var marker_b64c40674a08c38ca15319c6f9244215 = L.marker(
+                [41.409045532752046, 2.1947618324506073],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_7619f554d9a283c4ed921fca8fb48f19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16b36ea6cd4a5875e8c140c0a877f77c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ab92c24e84fcbab377104a4c83511ea = $(`<div id="html_9ab92c24e84fcbab377104a4c83511ea" style="width: 100.0%; height: 100.0%;">Gran Via - Bilbao (385)</div>`)[0];
+                popup_16b36ea6cd4a5875e8c140c0a877f77c.setContent(html_9ab92c24e84fcbab377104a4c83511ea);
+            
+        
+
+        marker_b64c40674a08c38ca15319c6f9244215.bindPopup(popup_16b36ea6cd4a5875e8c140c0a877f77c)
+        ;
+
+        
+    
+    
+                marker_b64c40674a08c38ca15319c6f9244215.setIcon(icon_7619f554d9a283c4ed921fca8fb48f19);
+            
+    
+            var marker_feded6fe86ce7729e7ff253f859cf82b = L.marker(
+                [41.41108496420196, 2.1974283872556004],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_d05a95d0da35f1f735cb9bb8f0d34fd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_998a24ae2fad020d23b6e2a8e37ab98a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_072d07896f9f8b8e14b9d71b4bd546ad = $(`<div id="html_072d07896f9f8b8e14b9d71b4bd546ad" style="width: 100.0%; height: 100.0%;">Gran Via - Bac de Roda (464)</div>`)[0];
+                popup_998a24ae2fad020d23b6e2a8e37ab98a.setContent(html_072d07896f9f8b8e14b9d71b4bd546ad);
+            
+        
+
+        marker_feded6fe86ce7729e7ff253f859cf82b.bindPopup(popup_998a24ae2fad020d23b6e2a8e37ab98a)
+        ;
+
+        
+    
+    
+                marker_feded6fe86ce7729e7ff253f859cf82b.setIcon(icon_d05a95d0da35f1f735cb9bb8f0d34fd6);
+            
+    
+            var marker_e45971fbf90c3bdde4a3ea9540fe2ac2 = L.marker(
+                [41.41366892646682, 2.2008844758467516],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_7e5f227a5417650cec40ddffd8ae813f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cc25facdc9e5d6fbf49085db04bf3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2fdb66c6247abbc5dc860e72db0acac = $(`<div id="html_f2fdb66c6247abbc5dc860e72db0acac" style="width: 100.0%; height: 100.0%;">Gran Via - Selva de Mar (717)</div>`)[0];
+                popup_4cc25facdc9e5d6fbf49085db04bf3b2.setContent(html_f2fdb66c6247abbc5dc860e72db0acac);
+            
+        
+
+        marker_e45971fbf90c3bdde4a3ea9540fe2ac2.bindPopup(popup_4cc25facdc9e5d6fbf49085db04bf3b2)
+        ;
+
+        
+    
+    
+                marker_e45971fbf90c3bdde4a3ea9540fe2ac2.setIcon(icon_7e5f227a5417650cec40ddffd8ae813f);
+            
+    
+            var marker_37b543ceff14824f95dcf17a43f400ec = L.marker(
+                [41.41580567626989, 2.203737715872744],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_ea54af7392bb0e7cc9ee32fa1ee15e91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b040b2b1e75eb3e3809aec99d57722f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2be3dabfbf60d5c0899008ec09be0d29 = $(`<div id="html_2be3dabfbf60d5c0899008ec09be0d29" style="width: 100.0%; height: 100.0%;">Gran Via - St Martí Provençals (2949)</div>`)[0];
+                popup_b040b2b1e75eb3e3809aec99d57722f2.setContent(html_2be3dabfbf60d5c0899008ec09be0d29);
+            
+        
+
+        marker_37b543ceff14824f95dcf17a43f400ec.bindPopup(popup_b040b2b1e75eb3e3809aec99d57722f2)
+        ;
+
+        
+    
+    
+                marker_37b543ceff14824f95dcf17a43f400ec.setIcon(icon_ea54af7392bb0e7cc9ee32fa1ee15e91);
+            
+    
+            var marker_4160a6e866274f1a69b5d70f89783047 = L.marker(
+                [41.41763123625167, 2.2061849370423063],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_087ef5e37574a9c4ab5a4f8d775a5e94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a3408452bdf9937248dd45ebddd0fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05fe0877b66df4363f9d544269972706 = $(`<div id="html_05fe0877b66df4363f9d544269972706" style="width: 100.0%; height: 100.0%;">Gran Via - Maresme (888)</div>`)[0];
+                popup_1a3408452bdf9937248dd45ebddd0fd7.setContent(html_05fe0877b66df4363f9d544269972706);
+            
+        
+
+        marker_4160a6e866274f1a69b5d70f89783047.bindPopup(popup_1a3408452bdf9937248dd45ebddd0fd7)
+        ;
+
+        
+    
+    
+                marker_4160a6e866274f1a69b5d70f89783047.setIcon(icon_087ef5e37574a9c4ab5a4f8d775a5e94);
+            
+    
+            var marker_024fb273f9c5a498a825df78afe5a859 = L.marker(
+                [41.4204807404349, 2.207704131115273],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_418c9a0c4eabede9c543b42efd5e09bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7183be34dc35e82ddf4015f1b78a5fc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4e06d8f7ae0ad3821eb71169d5d4783 = $(`<div id="html_b4e06d8f7ae0ad3821eb71169d5d4783" style="width: 100.0%; height: 100.0%;">Metro Besòs (962)</div>`)[0];
+                popup_7183be34dc35e82ddf4015f1b78a5fc3.setContent(html_b4e06d8f7ae0ad3821eb71169d5d4783);
+            
+        
+
+        marker_024fb273f9c5a498a825df78afe5a859.bindPopup(popup_7183be34dc35e82ddf4015f1b78a5fc3)
+        ;
+
+        
+    
+    
+                marker_024fb273f9c5a498a825df78afe5a859.setIcon(icon_418c9a0c4eabede9c543b42efd5e09bf);
+            
+    
+            var marker_2227ab6391ffa45a26f1e13e4c900cb3 = L.marker(
+                [41.42229363990214, 2.2103908605823155],
+                {
+}
+            ).addTo(map_3f688652ffbc6dce4fa91c249748ef15);
+        
+    
+            var icon_8ae1ead3ef60198c569684a59d0048f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc21f8b4e0693fca5e9573c9037e1668 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_254578d9449716b1772e884d3e5576fd = $(`<div id="html_254578d9449716b1772e884d3e5576fd" style="width: 100.0%; height: 100.0%;">Besòs - Verneda (572)</div>`)[0];
+                popup_cc21f8b4e0693fca5e9573c9037e1668.setContent(html_254578d9449716b1772e884d3e5576fd);
+            
+        
+
+        marker_2227ab6391ffa45a26f1e13e4c900cb3.bindPopup(popup_cc21f8b4e0693fca5e9573c9037e1668)
+        ;
+
+        
+    
+    
+                marker_2227ab6391ffa45a26f1e13e4c900cb3.setIcon(icon_8ae1ead3ef60198c569684a59d0048f0);
+            
+</script>
+</html>

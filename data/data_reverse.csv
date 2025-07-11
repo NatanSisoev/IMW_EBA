@@ -1,0 +1,35 @@
+Codi,,Nom,Adreça,Localitat,UTMx,UTMy,Distància,Punt de Relleu,Àrea de Transferència,6:00,7:00,8:00,9:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00,21:00,22:00,23:00
+572,1,Besòs - Verneda,Concili de Trento 342,Barcelona,434018.051574206,4585938.19938036,0,,Besòs/Verneda,10,41,51,37,37,34,31,30,30,37,45,40,34,28,24,11,3,0
+2547,2,Gran Via - Ca n'Oliva,Gran Via Corts Catalanes 1181,Barcelona,433911.997385016,4585717.47361282,407,,Besòs,12,23,28,23,24,20,17,16,16,22,21,26,19,10,9,6,3,0
+889,3,Gran Via - Maresme,Gran Via Corts Catalanes 1147,Barcelona,433728.164032530,4585537.24777824,257,,,17,30,48,33,33,28,25,22,24,27,33,34,29,19,15,8,4,0
+540,4,Gran Via - Agricultura,Gran Via Corts Catalanes 1083,Barcelona,433424.971527203,4585241.33424992,424,,Provençals,15,34,33,29,26,24,19,23,20,28,33,40,40,21,16,9,4,0
+466,5,Gran Via - Pl dels Porxos,Gran Via Corts Catalanes 1029-1031,Barcelona,433192.789895244,4585014.38522974,325,,,19,45,44,31,31,29,22,28,27,31,37,53,56,24,19,8,3,0
+383,6,Gran Via - Espronceda,Gran Via Corts Catalanes 967-981,Barcelona,432941.939307315,4584769.37705320,351,,Clot de la Mel,16,38,45,33,24,29,20,22,23,27,32,37,28,18,12,9,5,0
+716,7,Gran Via - Bilbao,Gran Via Corts Catalanes 911 - 917,Barcelona,432707.902775060,4584541.45022557,327,,,13,46,53,40,28,27,26,30,32,38,40,41,37,27,21,12,5,0
+498,8,Glòries,Gran Via Corts Catalanes 851,Barcelona,432355.258768552,4584154.00339056,535,,,7,22,34,25,20,21,22,23,32,31,36,41,34,28,20,13,7,0
+247,9,Gran Via - Castillejos,Glòries Catalanes,Barcelona,431996.708468052,4583884.53523327,464,Si,Glòries,5,21,23,18,15,18,17,17,16,16,22,20,20,14,10,5,2,0
+785,10,Gran Via - Padilla,Gran Via Corts Catalanes 751 bis,Barcelona,431680.905462718,4583546.38709516,465,,,8,33,40,29,25,26,23,26,25,27,32,31,26,20,17,10,4,0
+1298,11,Gran Via - Sardenya,Gran Via Corts Catalanes 735,Barcelona,431478.448062616,4583346.55800149,284,,Monumental,14,51,55,42,35,38,31,39,37,37,44,43,43,31,25,15,7,0
+1230,12,Gran Via - Roger de Flor,Gran Via Corts Catalanes 671,Barcelona,431191.753601880,4583066.32956231,401,,,9,38,64,44,37,40,36,40,43,45,54,50,48,40,31,18,9,0
+503,13,Metro Tetuan,Gran Via Corts Catalanes 661,Barcelona,430918.961462436,4582799.24611804,412,,Pl. Tetuan,3,14,28,27,23,27,26,33,36,32,28,41,39,30,30,14,8,0
+1246,14,Gran Via - Llúria,Gran Via Corts Catalanes 637,Barcelona,430713.941942387,4582598.62957258,287,,Gran Via Centre,5,16,29,29,24,28,30,41,39,28,31,49,43,38,29,17,7,0
+1081,15,Gran Via - Pau Claris,Gran Via Corts Catalanes 617,Barcelona,430529.824977278,4582418.11613970,258,,Gran Via Centre,5,19,27,28,26,31,36,49,47,36,37,57,52,44,38,23,9,0
+95,16,Gran Via - Balmes,Gran Via Corts Catalanes 587-591,Barcelona,430255.460354910,4582149.65066521,384,,Gran Via Centre,2,14,22,24,24,29,30,37,39,33,35,41,47,42,40,25,13,0
+7,17,Pl Universitat,Gran Via Corts Catalanes 585,Barcelona,430044.803043485,4581935.50732156,301,Si,Universitat,2,12,21,20,23,30,32,36,38,32,31,42,43,41,38,25,12,0
+167,18,Gran Via - Casanova,Gran Via Corts Catalanes 563,Barcelona,429849.776909943,4581753.47557910,268,,,2,12,20,20,17,18,19,22,20,18,17,25,24,23,19,13,7,0
+1468,19,Gran Via - Villarroel,Gran Via Corts Catalanes 531,Barcelona,429674.492930504,4581582.44809391,245,,Metro Urgell,4,14,24,21,18,20,22,24,23,21,22,30,29,26,23,16,8,1
+206,20,Gran Via - Calàbria,Gran Via Corts Catalanes 475-477,Barcelona,429386.598446392,4581299.38402944,404,,Metro Rocafort,4,13,24,21,18,19,23,27,25,20,24,29,27,27,24,16,9,1
+774,21,Gran Via - Vilamarí,Gran Via Corts Catalanes 413,Barcelona,429083.175951471,4581002.25299098,425,,Metro Rocafort,2,8,15,11,10,12,15,17,15,14,13,16,17,19,16,10,4,1
+3236,22,Gran Via - Pl Espanya,Gran Via Corts Catalanes 373-385,Barcelona,428921.365540318,4580842.74385142,227,Si,Espanya,6,21,29,24,20,23,24,26,32,26,25,27,28,28,23,19,10,1
+108,23,Pl Espanya - FGC,Gran Via Corts Catalanes 361-371,Barcelona,428750.160813774,4580669.94638252,263,,Espanya,5,15,37,34,26,29,28,34,35,30,32,36,35,33,27,22,11,2
+421,24,Gran Via - Farell,Gran Via de les Corts Catalanes 291-293,Barcelona,428494.529043499,4580405.83671265,368,,,1,4,9,8,6,8,7,12,9,7,8,14,10,8,5,5,1,0
+907,25,Gran Via - Moianès,Gran Via Corts Catalanes 249-253,Barcelona,428297.463259037,4580212.23890773,276,,,1,5,8,6,8,7,6,8,7,7,6,10,8,7,4,4,1,0
+895,26,La Campana,Gran Via de les Corts Catalanes s/n,Barcelona,428077.883383907,4579999.43051386,306,,Magòria/La Campana,1,6,9,7,7,8,7,10,9,7,8,12,10,8,5,4,1,0
+183,27,Gran Via - Ildefons Cerdà,Gran Via de les Corts Catalanes 137,Barcelona,427786.003322841,4579728.12593786,400,,Ildefons Cerdà,2,6,14,8,7,8,6,7,11,8,10,9,9,7,5,5,1,0
+3023,28,Ildefons Cerdà - Ciutat de la Justícia,Gran Via Corts Catalanes 111,Barcelona,427556.098235007,4579506.52738870,335,Si,Ildefons Cerdà,1,3,15,6,4,10,4,5,9,6,7,5,6,4,3,2,1,0
+3024,29,Av Granvia - Alhambra,Gran Via De L'hospitalet s/n,l'Hospitalet de Llobregat,427341.915383254,4579297.01498898,300,,,1,2,7,2,2,3,3,3,5,3,4,2,2,2,1,1,0,0
+2965,30,Av Granvia - Natzaret,Gran Via s/n ,l'Hospitalet de Llobregat,427102.110848955,4579062.08977427,336,,,0,2,6,1,2,4,3,2,4,3,3,2,3,2,2,1,0,0
+92,31,Pl Europa,Av. Granvia,l'Hospitalet de Llobregat,426942.711214066,4578906.86747305,223,,Pl. Europa,0,2,4,1,2,3,2,2,3,2,2,1,3,2,1,1,0,0
+2966,32,Amadeu Torner,Av. Granvia 70,l'Hospitalet de Llobregat,426738.306101330,4578707.08918424,302,,Pl. Europa,0,1,4,1,1,1,1,1,4,1,2,1,2,0,0,1,0,0
+1434,33,Av Granvia - Can Tries,Av. Granvia,l'Hospitalet de Llobregat,426562.549294465,4578535.17952126,246,,,21,3,3,1,1,3,1,2,3,1,2,3,2,1,1,2,0,0
+3225,34,Gornal,Av. Granvia s/n,l'Hospitalet de Llobregat,426355.951777456,4578332.65015482,290,,,,,,,,,,,,,,,,,,,,
